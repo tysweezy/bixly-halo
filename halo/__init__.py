@@ -8,4 +8,4 @@ app.config.from_object(Config)
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-from src import routes, models
+from halo import views, models
